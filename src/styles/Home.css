@@ -127,7 +127,7 @@ body {
   .testimonial {
     max-width: 600px;
     padding: 20px;
-    background-color: #F4F4F4;
+    background-color:#FBF9F2;
     border-radius: 10px;
     text-align: center;
     margin: 0 10px;
@@ -165,3 +165,122 @@ body {
     padding: 20px 0;
   }
   
+  /**/
+  /* Our Story and Happy Customers Section */
+.our-story{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .our-story {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .our-story h2 {
+    font-size: 36px;
+    color: #1e2952;
+    margin-bottom: 20px;
+  }
+  
+  .our-story p {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+    max-width: 700px;
+  }
+  
+  .our-story a {
+    color: #4680e6;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Additional Section (e.g., Highlights, Features) */
+  .additional-section {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .additional-section h2 {
+    font-size: 36px;
+    color: #1e2952;
+    margin-bottom: 20px;
+  }
+  
+  .additional-section p {
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+    max-width: 700px;
+  }
+  
+  /* next section styling */
+  /* Product Highlight Section */
+.product-highlight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.product-highlight .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-highlight-image img {
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-highlight-content {
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.product-highlight-content h2 {
+  font-size: 36px;
+  color: #1E2952;
+  margin-bottom: 20px;
+}
+
+.product-highlight-content p {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.product-highlight-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.product-highlight-content ul li {
+  font-size: 16px;
+  color: #12305B;
+  margin-bottom: 10px;
+}
+
+.product-highlight-content button {
+  background-color: #F2534B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.product-highlight-content button:hover {
+  background-color: #C73B36;
+}
