@@ -157,13 +157,6 @@ body {
     color: #1E2952;
   }
   
-  /* Footer */
-  footer {
-    background-color: #1E2952;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
   
   /**/
   /* Our Story and Happy Customers Section */
@@ -438,4 +431,93 @@ body {
 .product-review-rating i {
   font-size: 1.2rem;
   margin-right: 5px;
+}
+
+/* foter */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #191919;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-md-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 15px;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-bottom: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social-links a:hover {
+  color: #f00;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* Footer specific styles */
+.footer {
+  background-color: #12305B;
+  padding: 40px 0;
+  color: #fff;
 }
