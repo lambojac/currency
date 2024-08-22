@@ -284,3 +284,158 @@ body {
 .product-highlight-content button:hover {
   background-color: #C73B36;
 }
+
+/* 
+ */
+ /* Mission and Shop Section */
+.mission-and-shop {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.mission-and-shop .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.mission-content {
+  max-width: 50%;
+}
+
+.mission-content h2 {
+  font-size: 36px;
+  color: #1E2952;
+  margin-bottom: 20px;
+}
+
+.mission-content p {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+
+.mission-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mission-content ul li {
+  font-size: 16px;
+  color: #12305B;
+  margin-bottom: 10px;
+}
+
+.mission-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.shop-callout {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.shop-callout h2 {
+  font-size: 36px;
+  color: #1E2952;
+  margin-bottom: 20px;
+}
+
+.shop-callout p {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop-callout button {
+  background-color: #F2534B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shop-callout button:hover {
+  background-color: #C73B36;
+}
+/*  */
+.product-reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.product-reviews-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-reviews-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.product-reviews-list {
+  display: flex;
+  
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.product-review-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-right: 20px;
+  flex: 0 0 auto;
+  width: calc(100% / 3 - 20px);
+  scroll-snap-align: start;
+}
+
+.product-review-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product-review-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.product-review-item h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.product-review-rating {
+  display: flex;
+  align-items: center;
+  color: #ffc107;
+}
+
+.product-review-rating i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}

@@ -92,6 +92,106 @@ function Home() {
         </div>
       </section>
       {/* end  */}
+
+      {/* next section */}
+      <section className="mission-and-shop">
+  <div className="container">
+    <div className="mission-content">
+      <h2>Our Mission</h2>
+      <p>
+        We started Sleepify with 1 simple goal: to be your best friend at bedtime. 
+        We, just like you, deal with stress, unrest, and trouble sleeping from a number of daily things like school work, exams, trauma, and people. 
+        That's why we created products that aim to:
+      </p>
+      <ul>
+        <li>Promote Calm</li>
+        <li>Support Sleep</li>
+        <li>Reduce Stress</li>
+        <li>Aid Relaxation</li>
+      </ul>
+    </div>
+    <div className="mission-image">
+      <img src="featuredused.png" alt="Mission" />
+    </div>
+  </div>
+  <div className="shop-callout">
+    <h2>Visit Our Shop</h2>
+    <p>
+      Our Personal Diffuser is an aromatherapy device that contains a blend of melatonin, lavender, and chamomile. 
+      A few breaths of our plant-based essential oil mist will mellow you out, quiet the mind, and lull you to bed.
+    </p>
+    <button>Visit Shop</button>
+  </div>
+</section>
+{/* end */}
+
+{/* next xection */}
+<div className="product-reviews-container">
+      <div className="product-reviews-header">
+        <h1>Product Reviews</h1>
+      </div>
+      <div className="product-reviews-list">
+        <div className="product-review-item">
+          <img src="rectangle6.png" alt="Product" />
+          <p>
+            Works great! Just use it and then relax, I fall asleep with no
+            problem every time I use it.
+          </p>
+          <h4>Rachel Dill</h4>
+          <div className="product-review-rating">
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+          </div>
+        </div>
+        <div className="product-review-item">
+          <img src="rectangle6.png" alt="Product" />
+          <p>
+            It really helps me fall right to sleep compared to melatonin pills.
+          </p>
+          <h4>Javier Mendez</h4>
+          <div className="product-review-rating">
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+          </div>
+        </div>
+        <div className="product-review-item">
+          <img src="rectangle6.png" alt="Product" />
+          <p>
+            I've tried a lot of things to sleep but none of those worked, so I
+            tried Cloudy and wow! I sleep like a baby now.
+          </p>
+          <h4>Naomi Nwazurike</h4>
+          <div className="product-review-rating">
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+          </div>
+        </div>
+        <div className="product-review-item">
+          <img src="rectangle6.png" alt="Product" />
+          <p>
+            I have been falling asleep and sleeping through the night.
+          </p>
+          <h4>Nate Jacobs</h4>
+          <div className="product-review-rating">
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+            <i className="fa fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* end */}
       <footer>
         <div className="container">
           <p>&copy; 2023 Sleepstiq. All Rights Reserved.</p>
