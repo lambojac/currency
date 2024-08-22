@@ -46,9 +46,39 @@ const Shop = () => {
         </div>
       </section>
       {/* end  */}
-
+{/* next section */}
+<section className="testimonials">
+         
+            <div className="testimonials-list">
+              <div className="testimonial">
+                <p>I love it! I have trouble falling asleep, and this has worked like magic for me.</p>
+                <div className="testimonial-author">
+                  <h3>John Matthews</h3>
+                </div>
+              </div>
+              <div className="testimonial">
+                <p>I work shift work. Swinging from days to nights is sometimes bearable, thanks to Sleepstiq. Thank you!</p>
+                <div className="testimonial-author">
+                  <h3>Eunice Oliver</h3>
+                </div>
+              </div>
+              <div className="testimonial">
+                <p>It's a really good product and helps me sleep better at night.</p>
+                <div className="testimonial-author">
+                  <h3>Laura Davies</h3>
+                </div>
+              </div>
+              <div className="testimonial">
+                <p>Helps me relax and remember my dreams. Stress levels definitely gone down.</p>
+                <div className="testimonial-author">
+                  <h3>Jane Becks</h3>
+                </div>
+              </div>
+            </div>
+        </section>
+      </div>
       
-    </div>
+    
   );
 };
 
