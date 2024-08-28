@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-md-4">
             <h3 className="footer-heading">Company</h3>
             <ul className="footer-links">
-              <li><a href="#">About</a></li>
+              <li><a href="#">About us</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Jobs</a></li>
