@@ -28,7 +28,7 @@ function Faqs() {
         <button type="submit" className="faq-search-button">Search</button>
       </form>
       <div className="faq-product-info">
-        <h2>Sleepstiq Product</h2>
+        <h2>Sleepstiq Product </h2>
         <ul>
           <li>Order</li>
           <li>Melantonin</li>
@@ -42,9 +42,9 @@ function Faqs() {
             <p>
               Inhaling on the diffuser will turn the inside liquids (melatonin,
               lavender, chamomile) into a light mist which you inhale, and then
-              exhale out your nose. Inhaling the melatonin allows for a
+              exhale out your nose during the process. Inhaling the melatonin allows for a
               near-instant effect, and also allows you to experience the
-              soothing aromatherapeutic effect of lavender and chamomile.
+              soothing aromatherapeutic effect of lavender and chamomile .
             </p>
           </li>
           <li className="faq-item">
