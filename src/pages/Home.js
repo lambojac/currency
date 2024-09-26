@@ -99,7 +99,7 @@ function Home() {
     <div className="mission-content">
       <h2>Our Mission</h2>
       <p>
-        We started Sleepify with 1 simple goal: to be your best friend at bedtime. 
+        We started Sleepify with just one simple goal which is  to be your best friend at bedtime. 
         We, just like you, deal with stress, unrest, and trouble sleeping from a number of daily things like school work, exams, trauma, and people. 
         That's why we created products that aim to:
       </p>
